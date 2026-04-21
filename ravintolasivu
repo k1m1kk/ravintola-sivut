@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ravintola Lapintaika</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+
+
+<header>
+    <h1>Ravintola Lapintaika</h1>
+    <p class="price">
+        Lounas 11,90 € <br>
+        (sisältää ruokajuoman: vesi, kotikalja, maito)
+    </p>
+</header>
+
+
+<main>
+    <section class="menu">
+        <h2>Viikon lounaslista</h2>
+
+        <h3>Maanantai</h3>
+        <p>
+            Juusto-vihanneskeittoa ja kokin sämpylä<br>
+            Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia<br>
+            Marjakiisseliä ja hunajakermavaahtoa
+        </p>
+
+        <h3>Tiistai</h3>
+        <p>
+            Kana-fetajustosalaattia ja kokin sämpylä<br>
+            Paistettua punakampelaa, pinaattikastiketta ja perunamuusia<br>
+            Pannukakkua, mansikkahilloa ja kermavaahtoa
+        </p>
+
+        <h3>Keskiviikko</h3>
+        <p>
+            Tomaatti-yrttikeittoa ja kokin sämpylä<br>
+            Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia<br>
+            Omenapiirakkaa ja vaniljakastiketta
+        </p>
+
+        <h3>Torstai</h3>
+        <p>
+            Rapukeittoa ja kokin sämpylä<br>
+            Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja<br>
+            Hedelmäsalaattia ja kinuskikastiketta
+        </p>
+
+        <h3>Perjantai</h3>
+        <p>
+            Savulohisalaatti ja kokin sämpylä<br>
+            Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia<br>
+            Suklaamousse
+        </p>
+    </section>
+</main>
+
+
+<footer>
+    <p>
+        Ravintola Lapintaika<br>
+        Ravintolakatu 2, 98765 LAPINMAA<br>
+        Puh. (012) 345 6789<br>
+        Sähköposti: varaukset@jokuposti.net<br>
+        Aukioloajat: ma–pe 10:30–15:00
+    </p>
+</footer>
+<p>
+
+<a href="palaute.html" class="feedback-link">Jätä palautetta</a>
+
+</p>
+</body>
+</html>
