@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Asiakaspalaute</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+
+<h1>Asiakaspalautelomake</h1>
+<p>Kiitos kun annat palautetta ravintolakokemuksestasi.</p>
+
+<form>
+
+    
+    <label for="paiva">Käyntipäivä:</label><br>
+    <input type="date" id="paiva" name="paiva"><br><br>
+
+    
+    <label for="odotus">Kuinka kauan jouduit odottamaan ruokaa?</label><br>
+    <select id="odotus" name="odotus">
+        <option>Alle 5 min</option>
+        <option>5–10 min</option>
+        <option>10–20 min</option>
+        <option>Yli 20 min</option>
+    </select><br><br>
+
+    
+    <p>Arvioi seuraavat asiat:</p>
+
+    Ruoan maku:
+    <input type="radio" name="maku"> Huono
+    <input type="radio" name="maku"> OK
+    <input type="radio" name="maku"> Erinomainen
+    <br><br>
+
+    Ruoan lämpötila:
+    <input type="radio" name="lampotila"> Huono
+    <input type="radio" name="lampotila"> OK
+    <input type="radio" name="lampotila"> Erinomainen
+    <br><br>
+
+    Palvelu:
+    <input type="radio" name="palvelu"> Huono
+    <input type="radio" name="palvelu"> OK
+    <input type="radio" name="palvelu"> Erinomainen
+    <br><br>
+
+    
+    <label for="hinta">Hinta-laatusuhde (1–5):</label><br>
+    <input type="number" id="hinta" min="1" max="5"><br><br>
+
+    
+    <label for="palaute">Vapaa palaute:</label><br>
+    <textarea id="palaute" rows="5" cols="40"></textarea><br><br>
+
+    
+    <p>Haluatko, että otamme sinuun yhteyttä?</p>
+    <input type="checkbox"> Kyllä<br><br>
+
+    <label>Sähköposti:</label><br>
+    <input type="email"><br><br>
+
+    
+    <input type="submit" value="Lähetä palaute">
+
+</form>
+
+
+<a href="ravintola.html" class="feedback-link">Takaisin etusivulle</a>
+
+
+</body>
+</html>
